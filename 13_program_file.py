@@ -40,7 +40,7 @@ for i in range(2,sh1.max_row+1):
                     #print(y1[y],"\n")
                     y=(random.randint(0,len(qb[k])-1))
                     
-                    if (20-(total_marks+y1[y][1])) >= 5 or total_marks+y1[y][1]==20 or (20-(total_marks+y1[y][1])) >= 9:
+                    if (20-(total_marks+y1[y][1])) >= 5 or total_marks+y1[y][1]==20 :
                         #print("a")
                         #print(y)
                         #print(y1[y])
